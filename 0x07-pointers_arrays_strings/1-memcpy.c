@@ -1,7 +1,6 @@
-#include <main.h>
-
+#include "main.h>"
 /**
- * _memcpy-> memory copy
+ * _memcpy -> memory copy
  * @dest: is destination memory
  * @src: is sourse memory
  * @n: number of bytes to be copied
