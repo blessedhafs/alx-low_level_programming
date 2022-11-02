@@ -1,4 +1,5 @@
 #include "main.h>"
+#include <stdio.h>
 /**
  * _memcpy -> memory copy
  * @dest: is destination memory
