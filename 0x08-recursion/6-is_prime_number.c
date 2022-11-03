@@ -53,13 +53,3 @@ if (num == 2)
 
 return (evaluate_num(num, iterator));
 }
-
-
-
-
-
-
-
-
-
-
