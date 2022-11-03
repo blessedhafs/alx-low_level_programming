@@ -28,6 +28,7 @@ int evaluate_num(int num, int iterator)
 	return (0);
 
 }
+
 /**
  * is_prime_number - evaluste prime or not
  * @num: number
