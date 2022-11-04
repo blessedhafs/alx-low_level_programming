@@ -12,17 +12,17 @@ int _strlen_recursion(char *s)
 	{
 		return (0);
 	}
-	return (1 =_strlen_recursion(++s));
+	return (1 + _strlen_recursion(++s));
 }
 
-/** 
+/**
  * pl - palindrome
  * @s: pointer
  * @l:position
- * Return:boolena 
+ * Return:boolena
  */
 
-int pl(char *s, int l)
+int p1(char *s, int l)
 {
 	if (l < 1)
 	{
@@ -44,7 +44,7 @@ int pl(char *s, int l)
 
 int_is_palindrome(char *s)
 {
-	int len =_strlen_recursion(s);
+	int len = _strlen_recursion(s);
 
 	return (p1(s, len - 1));
 }
