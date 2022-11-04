@@ -16,7 +16,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * pl - palindrome
+ * p1 - palindrome
  * @s: pointer
  * @l:position
  * Return:boolena
