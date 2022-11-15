@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /*
- * main -> prints the multiplication of two args numbers
+ * main - prints the multiplication of two args numbers
  * @argc: argument count
  * @argv: argument vector
+ *
  * Return: always zero
  */
 int main(int argc, char *argv[])
